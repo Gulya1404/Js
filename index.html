@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Laba.web</title>
+
+	<link href="index.css" rel="stylesheet">
+</head>
+<body>
+
+<div >
+<div id="box" class="box1">
+
+	
+	
+	<h3> Введите число </h3>
+	<input type="textbox" id="seconds1" onload="updateP(this);" onchange ="updateP(this);">
+	<p class="pText" id="pText1"> Время HH:mm:ss </p>
+	<input disabled type="textbox" class="cp2" id="p2">
+	<p class="pText" id="pText2"> Секунда прошло с последней половины </p>
+	<input disabled type="textbox" class="cp2" id="p3"> 
+
+	<h3>Введите текст </h3>
+	Tекст:
+	<input type="textbox" id="text1">
+	Сообщения:
+	<input type="textbox" id="letter1" onload="findWords();" onchange="findWords();" >
+	<p class="pText" id="pText3"> Буквенные индексы </p>
+	<input disabled type="textbox" class="cp2" id="indexBox"> 
+
+
+
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
